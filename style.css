@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados-pessoais{
+   margin-right:225px;
+   padding: 1rem;
+}
+
+.dados-profi{
+    margin-left: 22px;
+    padding: 1rem;
+ }
+
+.button{
+    text-align: center;
+    margin-right: 368px;
+}
+.button button{
+    border: none;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 5px 12px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.button button:hover{
+    cursor: pointer;
+    background-color: #787676;
+}

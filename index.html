@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1 class="title">Formulario</h1>
+
+        <fieldset class="dados-pessoais">
+            <legend>Dados Pessoais</legend>
+
+                    <label>
+                        Nome:  <input type="text" name="name"/><br>
+                        Endereco:  <input type="text" name="endereco"/><br> 
+                        Cidade:  <input type="text" name="cidade"/><br>
+                    </label>    
+
+                    <label>Estado:
+                        <select name="diasemana">
+                            <option value="1">São Paulo</option>
+                            <option value="2">Rio de Janeiro</option>
+                            <option value="3">Fortaleza</option>
+                            <option value="4">Rio Grande do Norte</option>
+                        </select>
+                    </label>
+                </form>
+        </fieldset>
+
+        <fieldset class="dados-profi">
+            <legend>Dados Profissionais</legend>
+                    <label cals>
+                        Natureza do Cargo:<br>
+                        <input type="radio" name="recepcao" value="1"> Gerencia
+                        <input type="radio" name="recepcao" value="1"> Financeiro
+                        <input type="radio" name="recepcao" value="1"> Recepcao
+                        <input type="radio" name="recepcao" value="1"> Admnistrativo
+                        <input type="radio" name="recepcao" value="1"> Juridico
+
+                    </label><br><br>
+        
+                    <label>
+                         Area de Interesse: <br>
+                        <input type="checkbox" name="computação"/> Computacao
+                        <input type="checkbox" name="Professor"/> Professor 
+                        <input type="checkbox" name="matemaico"/> Matematico 
+                        <input type="checkbox" name="Engenheiro"/> Engenheiro 
+                        <input type="checkbox" name="Barbeiro"/> Barbeiro
+            
+                    </label><br><br>
+
+                    <label for="css">Mini-Curriculo:  <textarea name="message" rows="5" cols="30">Descreva suas habilidades e experiências.</textarea></label>
+        </fieldset>
+    </div>
+
+    <div class="button">
+        <button type="button" onclick="alert('Dados Enviados!')">Enviar</button>
+        <button type="button" onclick="alert('Dados Excluidos!')">Limpar</button>
+    </div>
+    </body>
+</html>
